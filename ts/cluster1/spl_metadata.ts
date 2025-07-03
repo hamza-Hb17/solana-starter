@@ -29,7 +29,7 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
         let data: DataV2Args = {
              name: "Hamza NFT",
              symbol: "NFT",
-             uri:"https://arweave.net/123456",
+             uri:"https://avatars.githubusercontent.com/u/26322655?v=4",
              sellerFeeBasisPoints: 5,
              creators: null,
              collection: null,

@@ -16,6 +16,7 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
         console.log("Mint address => ", mint.toBase58())
     } catch(error) {
         console.log(`Oops, something went wrong: ${error}`)
+        console.log("======>", await (error as any).getLogs());
     }
 })()
  
